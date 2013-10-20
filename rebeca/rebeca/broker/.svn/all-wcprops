@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/RebecaApp/!svn/ver/88/app/rebeca/rebeca/broker
+END
+ProcessingEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/broker/ProcessingEngine.java
+END
+BasicProcessingEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/RebecaApp/!svn/ver/88/app/rebeca/rebeca/broker/BasicProcessingEngine.java
+END
+BasicBroker.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/broker/BasicBroker.java
+END
+EventSink.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/broker/EventSink.java
+END
+ExtendableConfigurationEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/broker/ExtendableConfigurationEngine.java
+END
+PluggableEventSink.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/broker/PluggableEventSink.java
+END
+MonitoringEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/broker/MonitoringEngine.java
+END
+BasicBrokerEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/broker/BasicBrokerEngine.java
+END
+BasicMonitoringEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/broker/BasicMonitoringEngine.java
+END
+ConfigurationEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/broker/ConfigurationEngine.java
+END
+Connectable.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/broker/Connectable.java
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/RebecaApp/!svn/ver/164/app/src/de/uni_rostock/rtce/log
+END
+Log.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/RebecaApp/!svn/ver/164/app/src/de/uni_rostock/rtce/log/Log.java
+END
+LogDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/RebecaApp/!svn/ver/164/app/src/de/uni_rostock/rtce/log/LogDialog.java
+END
+ChatMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/RebecaApp/!svn/ver/164/app/src/de/uni_rostock/rtce/log/ChatMessage.java
+END
+DebugMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/RebecaApp/!svn/ver/164/app/src/de/uni_rostock/rtce/log/DebugMessage.java
+END
+LogElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/RebecaApp/!svn/ver/164/app/src/de/uni_rostock/rtce/log/LogElement.java
+END
+LogView.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/RebecaApp/!svn/ver/164/app/src/de/uni_rostock/rtce/log/LogView.java
+END
+ErrorMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/RebecaApp/!svn/ver/164/app/src/de/uni_rostock/rtce/log/ErrorMessage.java
+END

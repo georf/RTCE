@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="Collaborative Work"
+            id="de.uni-rostock.RTCE">
+      </category>
+      <view
+            name="Shared Documents"
+            icon="icons/document_open_folder.png"
+            category="de.uni-rostock.RTCE"
+            class="de.uni_rostock.rtce.views.SharedDocumentsComposite"
+            id="de.uni_rostock.rtce.views.SharedDocumentsComposite">
+      </view>
+      <view
+            category="de.uni-rostock.RTCE"
+            class="de.uni_rostock.rtce.log.LogView"
+            icon="icons/keyboard.png"
+            id="de.uni_rostock.rtce.log.LogView"
+            name="Collaboration Chat and Log">
+      </view>
+      <view
+            category="de.uni-rostock.RTCE"
+            class="de.uni_rostock.rtce.views.RemoteDocumentsComposite"
+            icon="icons/document_open_remote.png"
+            id="de.uni_rostock.rtce.views.RemoteDocumentsComposite"
+            name="Remote Documents">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="de.uni_rostock.rtce.menu_actions"
+            label="Collaboration"
+            visible="true">
+         <menu
+               id="de.uni_rostock.rtce.menu"
+               label="Collaboration">
+            <separator
+                  name="localDocuments">
+            </separator>
+            <separator
+                  name="remoteDocuments">
+            </separator>
+         </menu>
+         <action
+               class="de.uni_rostock.rtce.controllers.MenuBarController"
+               icon="icons/remove_shared.png"
+               id="de.uni_rostock.rtce.menu.remove_shared"
+               label="Unshare Current Editor"
+               menubarPath="de.uni_rostock.rtce.menu/localDocuments"
+               toolbarPath="localDocuments"
+               enablesFor="2">
+         </action>
+         <action
+               class="de.uni_rostock.rtce.controllers.MenuBarController"
+               icon="icons/add_shared.png"
+               id="de.uni_rostock.rtce.menu.add_shared"
+               label="Share Current Editor"
+               menubarPath="de.uni_rostock.rtce.menu/localDocuments"
+               toolbarPath="localDocuments">
+         </action>
+         <action
+               class="de.uni_rostock.rtce.controllers.MenuBarController"
+               icon="icons/remove_remote.png"
+               id="de.uni_rostock.rtce.menu.remove_remote"
+               label="Disconnect from current Remote Document"
+               menubarPath="de.uni_rostock.rtce.menu/remoteDocuments"
+               toolbarPath="remoteDocuments">
+         </action>
+         <action
+               class="de.uni_rostock.rtce.controllers.MenuBarController"
+               icon="icons/add_remote.png"
+               id="de.uni_rostock.rtce.menu.add_remote"
+               label="Connect to Remote Document"
+               menubarPath="de.uni_rostock.rtce.menu/remoteDocuments"
+               toolbarPath="remoteDocuments">
+         </action>
+      </actionSet>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="de.uni_rostock.rtce.perspectives.DocumentManagementPerspective"
+            icon="icons/collaboration.png"
+            id="de.uni_rostock.rtce.perspectives.DocumentManagementPerspective"
+            name="Collaboration">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="de.uni_rostock.rtce.preferences.RtcePreferencePage"
+            id="de.uni_rostock.rtce.preferences.RtcePreferencePage"
+            name="Collaboration (RTCE)">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="de.uni_rostock.rtce.preferences.PreferenceInitializer">
+      </initializer>
+   </extension>
+   
+
+</plugin>

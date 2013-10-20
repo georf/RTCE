@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/RebecaApp/!svn/ver/72/app/lib
+END
+djep-1.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/RebecaApp/!svn/ver/42/app/lib/djep-1.0.0.jar
+END
+jep-2.3.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/RebecaApp/!svn/ver/42/app/lib/jep-2.3.0.jar
+END
+log4j-1.2.15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/RebecaApp/!svn/ver/42/app/lib/log4j-1.2.15.jar
+END
+peersim-1.0.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/RebecaApp/!svn/ver/42/app/lib/peersim-1.0.3.jar
+END

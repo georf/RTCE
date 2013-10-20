@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/RebecaApp/!svn/ver/157/app/src/de/uni_rostock/rtce/rebeca/events
+END
+RtceEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/RebecaApp/!svn/ver/155/app/src/de/uni_rostock/rtce/rebeca/events/RtceEvent.java
+END
+ChatEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/RebecaApp/!svn/ver/132/app/src/de/uni_rostock/rtce/rebeca/events/ChatEvent.java
+END
+StatusEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/RebecaApp/!svn/ver/157/app/src/de/uni_rostock/rtce/rebeca/events/StatusEvent.java
+END
+ChangeEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/RebecaApp/!svn/ver/154/app/src/de/uni_rostock/rtce/rebeca/events/ChangeEvent.java
+END
+GlobalChangeEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/RebecaApp/!svn/ver/157/app/src/de/uni_rostock/rtce/rebeca/events/GlobalChangeEvent.java
+END

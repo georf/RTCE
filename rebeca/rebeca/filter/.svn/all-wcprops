@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/filter
+END
+FalseFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/filter/FalseFilter.java
+END
+AndFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/filter/AndFilter.java
+END
+AttributeFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/filter/AttributeFilter.java
+END
+BasicAttributeFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/filter/BasicAttributeFilter.java
+END
+ScopeIdentifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/filter/ScopeIdentifier.java
+END
+IntervalBound.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/filter/IntervalBound.java
+END
+UnsupportedFilterException.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/filter/UnsupportedFilterException.java
+END
+IntervalList.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/filter/IntervalList.java
+END
+ScopedFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/filter/ScopedFilter.java
+END
+Interval.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/filter/Interval.java
+END
+TrueFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/filter/TrueFilter.java
+END
+OrFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/filter/OrFilter.java
+END
+BasicFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/filter/BasicFilter.java
+END
+IntervalFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/filter/IntervalFilter.java
+END
+FilterDispatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/filter/FilterDispatcher.java
+END

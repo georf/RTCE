@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/RebecaApp/!svn/ver/160/app/src/de/uni_rostock/rtce/rebeca
+END
+RtceComponent.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/RebecaApp/!svn/ver/141/app/src/de/uni_rostock/rtce/rebeca/RtceComponent.java
+END
+RebecaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/RebecaApp/!svn/ver/160/app/src/de/uni_rostock/rtce/rebeca/RebecaController.java
+END
+RtceConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/RebecaApp/!svn/ver/114/app/src/de/uni_rostock/rtce/rebeca/RtceConfiguration.java
+END
+RebecaCloneable.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/RebecaApp/!svn/ver/155/app/src/de/uni_rostock/rtce/rebeca/RebecaCloneable.java
+END
+IRemoteEventListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/RebecaApp/!svn/ver/131/app/src/de/uni_rostock/rtce/rebeca/IRemoteEventListener.java
+END
+IpAddressDescriptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/RebecaApp/!svn/ver/124/app/src/de/uni_rostock/rtce/rebeca/IpAddressDescriptor.java
+END
+ConnectionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/RebecaApp/!svn/ver/115/app/src/de/uni_rostock/rtce/rebeca/ConnectionException.java
+END

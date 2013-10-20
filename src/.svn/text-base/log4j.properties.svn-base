@@ -1,0 +1,29 @@
+# Der Root-Logger hat den Level DEBUG
+# log4j.rootLogger=DEBUG, stdout
+log4j.rootLogger=ERROR, stdout
+
+# Wir haben einen Appender mit der Destionation Konsole
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+log4j.appender.stdout.layout.ConversionPattern=%d [%t] %-5p %c - %m%n
+
+# Für alle Klassen des Packages ch.scherer-it.xy den Level ERROR zuweisen
+# log4j.logger.rebeca.scope.ProcessingEngine=DEBUG
+#log4j.logger.rebeca.Broker=INFO
+log4j.logger.rebeca.broker.MonitoringEngine=INFO
+#log4j.logger.rebeca.broker.ProcessingEngine=DEBUG
+#log4j.logger.rebeca.peernet.SimSink=DEBUG
+#log4j.logger.rebeca.peersim.ApplicationProtocol=INFO
+log4j.logger.rebeca.peersim.Check=TRACE
+#log4j.logger.rebeca.peersim.EventBrokering=DEBUG
+#log4j.logger.rebeca.peersim.EventConsuming=INFO
+log4j.logger.rebeca.peersim.ScopeManaging=INFO
+#log4j.logger.rebeca.routing.AdvertisementEngine=DEBUG
+log4j.logger.rebeca.scope.ScopeEngine=DEBUG
+
+#log4j.rootLogger=INFO, A1
+#log4j.appender.A1=org.apache.log4j.ConsoleAppender
+#log4j.appender.A1.layout=org.apache.log4j.PatternLayout
+
+# Print the date in ISO 8601 format
+#log4j.appender.A1.layout.ConversionPattern=%d [%t] %-5p %c - %m%n

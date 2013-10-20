@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/transport
+END
+StreamSink.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/transport/StreamSink.java
+END
+TransportEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/transport/TransportEngine.java
+END
+SerializationEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/transport/SerializationEngine.java
+END
+ObjectSerializationEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/transport/ObjectSerializationEngine.java
+END
+InetContactProfile.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/transport/InetContactProfile.java
+END
+TcpEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/transport/TcpEngine.java
+END

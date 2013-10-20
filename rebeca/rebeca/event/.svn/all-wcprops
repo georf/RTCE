@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/event
+END
+ScopeUnsubscription.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/event/ScopeUnsubscription.java
+END
+ScopeAdvertisement.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/event/ScopeAdvertisement.java
+END
+Subscription.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/event/Subscription.java
+END
+ScopeDenial.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/event/ScopeDenial.java
+END
+ScopeUnadvertisement.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/event/ScopeUnadvertisement.java
+END
+Unsubscription.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/event/Unsubscription.java
+END
+Advertisement.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/event/Advertisement.java
+END
+ScopeEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/event/ScopeEvent.java
+END
+SubscriptionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/event/SubscriptionFactory.java
+END
+Unadvertisement.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/event/Unadvertisement.java
+END
+ScopeApproval.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/event/ScopeApproval.java
+END
+ScopeSubscription.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/event/ScopeSubscription.java
+END

@@ -1,0 +1,219 @@
+package de.uni_rostock.rtce.debug;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Timer;
+import java.util.TimerTask;
+
+import org.eclipse.jface.text.BadLocationException;
+import org.eclipse.jface.text.TextSelection;
+import org.eclipse.jface.viewers.ISelectionProvider;
+import org.eclipse.swt.widgets.Display;
+import org.eclipse.ui.texteditor.ITextEditor;
+
+import de.uni_rostock.rtce.Core;
+import de.uni_rostock.rtce.log.Log;
+import de.uni_rostock.rtce.models.Document;
+
+/**
+ * This class sends text input to an editor instance. The text is send letter by
+ * letter with a given delay. This is implemented internally with a
+ * {@link TimerTask}. <br>
+ * <b>There can only be one such a tester!</b>
+ * 
+ * @author jonas
+ * 
+ */
+public class TextEditorTester extends TimerTask {
+
+	/**
+	 * The singleton instance of the tester
+	 */
+	private static TextEditorTester staticTester = null;
+	
+	/**
+	 * Marks if the current tester has been cancelled
+	 */
+	private static boolean cancelled = true;
+
+	/**
+	 * This method has the functionality to toggle the use of the tester. Under
+	 * the following conditions a tester will be created and executed:
+	 * <ul>
+	 * <li>the application has been started with the command line switch
+	 * defined in the {@link DebugHelper}</li>
+	 * <li>the given text attribute equals "#"</li>
+	 * <li>there exists no other tester instance</li>
+	 * </ul>
+	 * Under the following conditions the tester will be closed:
+	 * <ul>
+	 * <li>the application has been started with the command line switch
+	 * "-useTesterClass=true"</li>
+	 * <li>the given text attribute equals "#"</li>
+	 * <li>there exists and other tester instance</li>
+	 * </ul>
+	 * 
+	 * @param document
+	 * @param text
+	 */
+	public static void createStatic(Document document, String text) {
+
+		/*
+		 * Toggle the tester's state
+		 */
+		if (text.equals("#")) {
+			/*
+			 * Create tester
+			 */
+			if (staticTester == null) {
+				staticTester = new TextEditorTester(document);
+				cancelled = false;
+				Log.debug("tester created");
+			} else {
+				/*
+				 * Close tester
+				 */
+				cancelled = true;
+				staticTester.cancel();
+				staticTester = null;
+				Log.debug("tester cancelled");
+			}
+		}
+
+	}
+
+	/**
+	 * Represents a set of values for the use of an test, including the text and
+	 * the delay.
+	 */
+	public class TesterValue {
+		public String text;
+		public long delay;
+
+		public TesterValue(String text, int delay) {
+			this.text = text;
+			this.delay = delay;
+		}
+	}
+
+	/**
+	 * Contains predefined tester values (texts and delays).
+	 */
+	private Map<String, TesterValue> mapTesterValue = new HashMap<String, TesterValue>() {
+		private static final long serialVersionUID = 6606760035119468871L;
+		{
+			put("1", new TesterValue("Dies ist ein Test!\n", 1200));
+			put("2", new TesterValue("Vögel vögeln viel.\n", 1300));
+			put("3", new TesterValue(
+					"Hierum darum Löffestiel, das ist doch ein Kinderspiel.\n",
+					600));
+			put("4", new TesterValue("Bitte ein Bit.\n", 10000));
+		}
+	};
+	
+	/**
+	 * The current tester value
+	 */
+	private TesterValue testerValue;
+	/**
+	 * The document model
+	 */
+	private Document document;
+	/**
+	 * The offset of the current letter of the text
+	 */
+	private int textOffset = 0;
+	/**
+	 * The real eclipse text editor
+	 */
+	private ITextEditor editor;
+
+	/**
+	 * Creates an instance of the tester.
+	 * @param document
+	 */
+	protected TextEditorTester(Document document) {
+		this.document = document;
+		
+		/*
+		 * Set tester values
+		 */
+		String username = Core.getInstance().getLocalUser().getName();
+		String id = String.valueOf(username.charAt(username.length() - 1));
+		testerValue = mapTesterValue.get(id);
+
+		/*
+		 * Get and set editor
+		 */
+		editor = Core.getInstance().getCurrentTextEditor();
+
+		/*
+		 * Set and start the timer
+		 */
+		new Timer().schedule(this, testerValue.delay, 10);
+	}
+
+	/**
+	 * Runs the tester and inserts a letter from the defined text to the editor.
+	 */
+	@Override
+	public void run() {
+		/*
+		 * Wait to fulfill the delay
+		 */
+		try {
+			Thread.sleep(testerValue.delay);
+		} catch (InterruptedException e1) {
+			e1.printStackTrace();
+		}
+
+		/*
+		 * Check if the tester has been cancelled
+		 */
+		if (cancelled)
+			return;
+
+		/*
+		 * Do the letter insert
+		 */
+		Display.getDefault().syncExec(new Runnable() {
+			public void run() {
+				try {
+					/*
+					 * Get the letter
+					 */
+					int idx = (textOffset++) % testerValue.text.length();
+					String text = String.valueOf(testerValue.text.charAt(idx));
+
+					/*
+					 * Get cursor position
+					 */
+					ISelectionProvider selProv = editor.getSelectionProvider();
+					int cursorOffset = ((TextSelection) selProv.getSelection())
+							.getOffset();
+					
+					/*
+					 * Insert the letter
+					 */
+					document.getIDocument().replace(cursorOffset, 0, text);
+
+					// debug message
+					String textDescr = text.equals("\n") ? "a new line" : "\""
+							+ text + "\"";
+					Log
+							.debug("tester add " + textDescr + " at "
+									+ cursorOffset);
+
+					/*
+					 *  Set new cursor position
+					 */
+					selProv.setSelection(new TextSelection(++cursorOffset, 0));
+					
+				} catch (BadLocationException e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+}

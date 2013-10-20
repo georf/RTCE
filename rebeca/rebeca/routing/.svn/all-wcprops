@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing
+END
+BasicFilterTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/BasicFilterTable.java
+END
+RoutingTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/RoutingTable.java
+END
+AdvertisementEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/AdvertisementEngine.java
+END
+BasicRoutingTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/BasicRoutingTable.java
+END
+IdentityRouting.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/IdentityRouting.java
+END
+SimpleRouting.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/SimpleRouting.java
+END
+BasicAdvertisementEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/BasicAdvertisementEngine.java
+END
+BasicMatchingTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/BasicMatchingTable.java
+END
+IdentityFilterTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/IdentityFilterTable.java
+END
+SimpleFilterTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/SimpleFilterTable.java
+END
+MatchingFilterTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/MatchingFilterTable.java
+END
+IdentityRoutingTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/IdentityRoutingTable.java
+END
+SimpleRoutingTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/SimpleRoutingTable.java
+END
+CoveringAdvertising.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/CoveringAdvertising.java
+END
+RoutingEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/RoutingEngine.java
+END
+BasicRoutingEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/BasicRoutingEngine.java
+END
+MatchingEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/MatchingEngine.java
+END
+Destination.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/Destination.java
+END
+BasicMatchingEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/BasicMatchingEngine.java
+END
+AdvertisementTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/AdvertisementTable.java
+END
+CoveringRouting.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/CoveringRouting.java
+END
+AdvertisementFilterTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/AdvertisementFilterTable.java
+END
+IdentityAdvertising.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/IdentityAdvertising.java
+END
+SimpleAdvertising.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/SimpleAdvertising.java
+END
+CoveringFilterTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/CoveringFilterTable.java
+END
+CoveringRoutingTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/CoveringRoutingTable.java
+END
+FilterTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/FilterTable.java
+END
+DestinationSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/RebecaApp/!svn/ver/72/app/rebeca/rebeca/routing/DestinationSet.java
+END

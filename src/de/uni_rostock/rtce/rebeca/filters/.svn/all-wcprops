@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/RebecaApp/!svn/ver/155/app/src/de/uni_rostock/rtce/rebeca/filters
+END
+RtceDocumentFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/RebecaApp/!svn/ver/155/app/src/de/uni_rostock/rtce/rebeca/filters/RtceDocumentFilter.java
+END
+RtceChatFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/RebecaApp/!svn/ver/132/app/src/de/uni_rostock/rtce/rebeca/filters/RtceChatFilter.java
+END
+RtceSupporterFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/RebecaApp/!svn/ver/141/app/src/de/uni_rostock/rtce/rebeca/filters/RtceSupporterFilter.java
+END
+RtceOwnerFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/RebecaApp/!svn/ver/141/app/src/de/uni_rostock/rtce/rebeca/filters/RtceOwnerFilter.java
+END
